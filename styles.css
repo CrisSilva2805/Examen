@@ -110,3 +110,12 @@ body{
 }
 
 
+
+.favorites{
+    height: 80vh;
+    label{
+        font-family: font-family: "Inter", sans-serif;
+    }
+}
+
+
