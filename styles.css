@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.header-navigation{
+    background-color: #F8EFEC;
+    display: flex;
+    height: 15vh;
+    img{
+        height: 100%;
+        margin-right: 20px;
+    }
+}
+
+.header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    label{
+        font-family: "Cormorant Garamond", serif;
+        font-size: 30px;
+        margin-bottom: -10px;
+    }
+    p{
+        font-family: "Inter", sans-serif;
+        color: #4A403A;
+        font-size: 12px;
+    }
+    
+}
+
+
+.header-center{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        gap: 65px;
+
+        a{
+            font-family: "Cormorant Garamond", serif;
+            font-size: 17px;
+            font-weight: bold;
+        }
+    }
+}
+
+.header-right{
+    display: flex;
+    background-color: #D9AEB2;
+    margin-top: 30px;
+    align-items: center;
+    height: 40%;
+    border-radius: 70px;
+}
+
+.go-shop{
+    display: flex;
+    height: 60vh;
+    
+    
+}
+
+.go-left{
+    height: 100%;
+    img{
+        height: 100%;
+        width: 900px;
+    }
+}
+
+.go-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background-color: #fde5e9;
+    padding: 50px;
+    p{
+        font-family: "Inter", sans-serif;
+        font-size: 13px;
+        color: #4A403A;
+        font-weight: bold;
+    }
+    label{
+        font-family: "Cormorant Garamond", serif;
+        font-weight: bold;
+        font-size: 70px;
+        margin-top: -10px;
+    }
+}
+
+.Green{
+    
+    background-color: #71806C;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    width: 200px;
+    
+
+}
+
+
